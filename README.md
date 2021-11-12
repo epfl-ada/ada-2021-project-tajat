@@ -6,19 +6,11 @@
 
   
 
-While mainstream media has been around for years, the digital age and technology allow media concerns to increase societal impact. Although objectivity is regarded as the mainstay of modern-day reporting, news commercialisation and economic and political interests of media corporations raise questions on how neutral journalists are in fulfilling their job as the fourth estate. In an era where news and opinion making reaches individuals in an increasingly tailor-made fashion, news neutrality has never been less of a luxury.  
-As journalist and media critic <i>Walter Lippmann</i> wrote in his 1920 work <i>‘Liberty and the News’</i>:
+While mainstream media has been around for years, the digital age allows media concerns to increase societal impact. Although objectivity is regarded as the mainstay of modern-day reporting, news commercialisation and economic and political interests of media corporations raise questions on how neutral journalists are in fulfilling their job as the fourth estate. In an era where news and opinion making reaches individuals in an increasingly tailor-made fashion, news neutrality has never been less of a luxury. As journalist and media critic Walter Lippmann wrote in his 1920 work ‘Liberty and the News’: 
 
-  
+‘There can be no higher law in journalism than to tell the truth and to shame the devil.’
 
-<i>‘There can be no higher law in journalism than to tell the truth and to shame the devil.’</i>
-
-  
-
-In this project, data analysis is thus performed on quotation data of twelve major British newspapers and -websites, in order to gain insight on their neutrality.  
-The choice to dive into the British media landscape instead of analysing media concerns in other English-speaking countries like the US, is done because of their (mainly) two-party political system and the fact that news bias in the US has been abundantly discussed already.
-
-  
+In this project, data analysis is performed on quotation data of twelve major British news sources, in order to gain insight on their neutrality. 
 
 ## Research Questions
 
