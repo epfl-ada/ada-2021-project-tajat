@@ -3,6 +3,7 @@ P2 deliverable (done as a team): GitHub repository with the following:
 Readme.md file containing the detailed project proposal (up to 1000 words):
 
 Title
+<br>British Bulletin Bias: revealing the agenda of UK’s fourth estate<\br>
 
 Abstract: A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
 
