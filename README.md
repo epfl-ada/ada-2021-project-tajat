@@ -14,42 +14,12 @@ In this project, data analysis is performed on quotation data of twelve major Br
 
 ## Research Questions
 
-  
-
-As neutrality can be achieved on different fronts and contexts, the main research goal of visualizing paper preferences can be split into multiple sub-questions:
-
--   Obviously politics is highly prone to opinionated reporting and is therefore chosen as the main section of research. The goal would be to map papers on the political spectrum according to their content.
-    
-
-	-   How often do speakers from one side of the political spectrum get quoted in a specific newspaper compared to speakers from the other?
-    
-	-   Are there any trends in the quotation tone of a specific speaker in a specific news source?
-    
-	-   Which political speakers are being quoted when it comes to specific topics in a newspaper? What are their affiliated parties, economic ties, academic degrees…
-    
-	-   How did news sources political views evolve over the time period 2015-2020?
-    
-
--   Similar analysis can be done to a lesser extent on other news rubrics like sports, economics, foreign affairs, if deemed feasible within the scope of the project.
-    
-
-	-   Comparing stances between different sections and news sources over time, could show if any topics are more polarized than others and reveal any trends.
-    
-
--   Instead of setting the scope based on news rubric, one could also analyse neutrality within specific topics like climate change, COVID-19 or China.
-    
-
-	-   The insights could be compared to the overall political insights gained from the research above, to nuance any conclusions.
-    
-	-   In research within topics, time series should be especially interesting.  
-    For example, what was the stance of the paper in 2015 compared to 2020?  
-    How much quotations were done in total on e.g. climate change in 2015 compared to nowadays?  
-    Are there trends between government decision-making and stances towards COVID-regulations and how the media covered those?  
-    Were the media truly neutral during that time period?
-    
-	-   Comparing stances between different topics and news sources over time, could show what topics are more polarized compared to others and reveal any upward trends.
-    
-
+The goal is to map papers onto the political spectrum according to their content. As neutrality can be achieved on different fronts and contexts, the main research goal of visualizing paper preferences can be split into multiple sub-analyses:
+-	Sentiment analysis of quotes by politicians
+-	Frequency of quotes made by politicians
+-	Frequency of chosen topics
+Searching for patterns, similarities, and differences between the newspapers we would like to answer the question:
+-	Are newspapers neutral in their quotations?
   
 
 ## Methods
