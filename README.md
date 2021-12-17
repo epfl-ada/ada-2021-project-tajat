@@ -50,3 +50,7 @@ Concatenating the vectors for each newspaper, three big feature matrices per yea
 
 ## Repository
 We have two notebooks in our repository. The one named "data_import_filtering.ipynb" was only used to filter the original Quotebank data for each year. The one called "Milestone3_master.ipynb" contains everything else.
+
+## Data story
+Our finished data story can be find at: 
+https://arthurdeleu.github.io/British-Bulletin-Bias/
