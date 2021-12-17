@@ -54,8 +54,8 @@ Concatenating the vectors for each newspaper, three big feature matrices per yea
 
 |  | Tasks |
 |--|--|
-| Anton | PCA, Clustering algorithms, plots |
-| Tove| Creating feature matrices, write the data story  |
-| Johanna | Data gathering and storing, plots and visualization of results, write data story |   
-| Arthur | Create website, write the data story, analyze the clustering, plot |
+| Anton | PCA, Clustering algorithms, plot results |
+| Tove| Creating feature matrices, write the data story, plot results  |
+| Johanna | Data gathering and storing, plot results, write data story |   
+| Arthur | Create website, write the data story, analyze the clustering, plot results |
 | Everyone | Wrap up | 
