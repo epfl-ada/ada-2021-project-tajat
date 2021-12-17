@@ -54,11 +54,8 @@ Concatenating the vectors for each newspaper, three big feature matrices per yea
 
 |  | Tasks |
 |--|--|
-| Anton | Clustering algorithms, topic analysis |
-|  Tove| Speaker and quotation frequency analysis, write the data story  |
-| Johanna | Data gathering and storing, topic analysis, start the data story |   
-| Arthur | Sentiment analysis, write the data story, extra analysis |
+| Anton | PCA, Clustering algorithms, plots |
+| Tove| Creating feature matrices, write the data story  |
+| Johanna | Data gathering and storing, plots and visualization of results, write data story |   
+| Arthur | Create website, write the data story, analyze the clustering, plot |
 | Everyone | Wrap up | 
-## Questions for TAs (optional)
-
--   We’re struggling with finding the best method to cluster with. Could we get help on that?
