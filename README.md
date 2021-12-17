@@ -27,46 +27,17 @@ Searching for patterns, similarities, and differences between the newspapers we 
 
 The project is built up as a multistage rocket, where three main methods were designed.
 
-### Sentiment analysis of matching quotes
+- ### Sentiment analysis of matching quotes
 As initial data exploration showed, many quotes appear in different newspapers. This could be used to study which news sources publish similar content. To add extra insights, each quote was also given a categorical sentiment value, representing positive, neutral, and negative. One indicator vector with total length equal to the total amount of quotes made by politicians was created for each newspaper. These vectors could then be studied and clustered to reveal similarities in newspaper content.
 
-### Frequency analysis of different political speakers
+- ### Frequency analysis of different political speakers
 
 The same vector approach could be used to cluster newspapers based on how often they quote certain speakers. Instead of categorical values, this vector would contain the total number of cited times per speaker and be of the length equal to the total number of speakers. Matching the speaker with its .parquet-file information makes it possible to cluster newspapers based only on political speakers, to gain information on which political party they cite the most.
 
-### Frequency of important topics
+- ### Frequency of important topics
 Quotes was also scanned on the occurrences of specific words that are linked to certain chosen topics. These topics include current subject with dividing opinions between the labour and conservative parties, eg. Climate change, Brexit, the Monarchy. Counting the frequency of each topic per newspapers, the same methods could be used to draw conclusions within certain topics.
 
 Concatenating the vectors for each newspaper, three big feature matrices per year was created. Due to many features compared to objects, we performed PCA on each of the matrices. Using the most important components from the PCA, we could then project the original matrices and try to cluster the projected matrices using K-means.
-
-
-  
-
--   ### Frequency analysis of matching quotes
-    
-
-	-   <b>Exactly matching:</b> As initial data exploration showed, many quotes appear in different newspapers. This could be used to study which news sources publish similar content.  
-	 One indicator vector with total length equal to the total amount of interesting quotes would be created for each newspaper. These vectors could then be clustered to reveal similarities in newspaper content.
-    
-	-   <b>Nearly the same: </b>It is clear that quotations could differ slightly but still hold the same meaning, where the impact on neutrality would be the same. Similar quotes could thus be mapped to one and the same quote value by using naive methods like TF-IDF. More extensive and complex methods like Locality Sensitive Hashing or other NLP-methods could lead to better results.
-    
-
--  ### Frequency analysis of different political speakers
-	-   The same vector approach could be used to cluster newspapers based on how often they quote certain speakers. Instead of boolean vectors, this vector would contain the total number of cited times per speaker and be of the length equal to the total number of different speakers. Matching the speaker with its .parquet-file information makes it possible to cluster newspapers on which political party they cite the most, what academic degree these people have, what their occupation is, what their ethnicity is, etc.
-    
-
--  ### Add sentiment analysis
-	-   A problem with naive frequency analysis is that only the quantitative measure is used and quote content is not considered. Sentiment analysis on quotes could make it possible to give a score to each speaker of how often it gets positively or negatively quoted. For sentiment analysis the pretrained model ‘Flair’ is used, but could be changed throughout milestone 3.
-    
-
--  ### Look into important topics ###
-	-   Quotes could be scanned on the occurence of specific words that are linked to certain topics. That way the same methods could be used to draw conclusions within certain topics.  
-      
-    
-
-Gained insights will be compared with benchmark research papers on the topic.
-
-  
   
 
 ## Proposed timeline
