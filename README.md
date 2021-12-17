@@ -38,17 +38,6 @@ The same vector approach could be used to cluster newspapers based on how often 
 Quotes was also scanned on the occurrences of specific words that are linked to certain chosen topics. These topics include current subject with dividing opinions between the labour and conservative parties, eg. Climate change, Brexit, the Monarchy. Counting the frequency of each topic per newspapers, the same methods could be used to draw conclusions within certain topics.
 
 Concatenating the vectors for each newspaper, three big feature matrices per year was created. Due to many features compared to objects, we performed PCA on each of the matrices. Using the most important components from the PCA, we could then project the original matrices and try to cluster the projected matrices using K-means.
-  
-
-## Proposed timeline
-
-| Period | Milestones |
-|--|--|
-| Week 9: 13/11 - 19/11 | Finish preliminary data analysis, cluster based on quotation vectors, speaker vectors |
-| Week 10: 20/11 - 26/11 | Add sentiment analysis,  look into the specific topics| 
-| Week 11: 27/11 - 3/12  | Continue analysis within topics, start on data story |
-| Week 12: 4/12 - 10/12 | Continue on data story, add extra analysis where necessary|
-| Week 13: 11/12 - 17/12 | Wrap up data story |
 
 ## Organization within the team
 
