@@ -22,7 +22,6 @@ The goal is to map papers onto the political spectrum according to their content
 Searching for patterns, similarities, and differences between the newspapers we would like to answer the question:
 - #### Are newspapers neutral in their quotations?
   
-
 ## Methods
 
 The project is built up as a multistage rocket, where three main methods were designed.
