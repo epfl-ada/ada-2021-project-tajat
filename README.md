@@ -10,7 +10,7 @@ While mainstream media has been around for years, the digital age allows media c
 
 ‘There can be no higher law in journalism than to tell the truth and to shame the devil.’
 
-In this project, data analysis is performed on quotation data of twelve major British news sources, in order to gain insight on their neutrality. 
+In this project, data analysis is performed on quotation data of major British news sources, in order to gain insight on their neutrality. 
 
 ## Research Questions
 
