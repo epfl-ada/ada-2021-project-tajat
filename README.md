@@ -20,7 +20,7 @@ The goal is to map papers onto the political spectrum according to their content
 -	Frequency of chosen topics
 
 Searching for patterns, similarities, and differences between the newspapers we would like to answer the question:
-- Are newspapers neutral in their quotations?
+- #### Are newspapers neutral in their quotations?
   
 
 ## Methods
