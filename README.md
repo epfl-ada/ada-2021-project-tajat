@@ -47,3 +47,6 @@ Concatenating the vectors for each newspaper, three big feature matrices per yea
 | Johanna | Data gathering and storing, plot results, write data story |   
 | Arthur | Create website, write the data story, analyze the clustering, plot results |
 | Everyone | Wrap up | 
+
+## Repository
+We have two notebooks in our repository. The one named "data_import_filtering.ipynb" was only used to filter the original Quotebank data for each year. The one called "Milestone3_master.ipynb" contains everything else.
