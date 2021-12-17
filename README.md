@@ -20,15 +20,25 @@ The goal is to map papers onto the political spectrum according to their content
 -	Frequency of chosen topics
 
 Searching for patterns, similarities, and differences between the newspapers we would like to answer the question:
-
-Are newspapers neutral in their quotations?
+- Are newspapers neutral in their quotations?
   
 
 ## Methods
 
-  
+The project is built up as a multistage rocket, where three main methods were designed.
 
-The project is built up as a multistage rocket, where four main methods were designed in increasing order of complexity and implementation workload.
+### Sentiment analysis of matching quotes
+As initial data exploration showed, many quotes appear in different newspapers. This could be used to study which news sources publish similar content. To add extra insights, each quote was also given a categorical sentiment value, representing positive, neutral, and negative. One indicator vector with total length equal to the total amount of quotes made by politicians was created for each newspaper. These vectors could then be studied and clustered to reveal similarities in newspaper content.
+
+### Frequency analysis of different political speakers
+
+The same vector approach could be used to cluster newspapers based on how often they quote certain speakers. Instead of categorical values, this vector would contain the total number of cited times per speaker and be of the length equal to the total number of speakers. Matching the speaker with its .parquet-file information makes it possible to cluster newspapers based only on political speakers, to gain information on which political party they cite the most.
+
+### Frequency of important topics
+Quotes was also scanned on the occurrences of specific words that are linked to certain chosen topics. These topics include current subject with dividing opinions between the labour and conservative parties, eg. Climate change, Brexit, the Monarchy. Counting the frequency of each topic per newspapers, the same methods could be used to draw conclusions within certain topics.
+
+Concatenating the vectors for each newspaper, three big feature matrices per year was created. Due to many features compared to objects, we performed PCA on each of the matrices. Using the most important components from the PCA, we could then project the original matrices and try to cluster the projected matrices using K-means.
+
 
   
 
